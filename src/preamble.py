@@ -19,7 +19,7 @@ raw_data = os.path.join(root_dir,'data','raw')
 processed_data = os.path.join(root_dir,'data','processed')
 interim_data = os.path.join(root_dir,'data','interim')
 
-def walk_directory(dir_to_walk):
+def walk_directory(dir_to_walk,print_files = True):
     # print input files for dataset in raw data folder
     files_dict = {}   
     ignore = ['.gitkeep']
@@ -28,5 +28,6 @@ def walk_directory(dir_to_walk):
             if filename in ignore:                              
                 continue                      
             files_dict[filename.split('.')[0]] = os.path.join(dirname, filename)         
-            print(filename.split('.')[0],files_dict[filename.split('.')[0]])
+            if print_files:
+                print(filename.split('.')[0],files_dict[filename.split('.')[0]])
     return files_dict
