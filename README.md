@@ -1,4 +1,5 @@
 # Andrew's Habits
+![sleep habits](https://github.com/jgalloway42/andrews_baby_tracker/blob/main/reports/figures/sleep_duration_day_night.png)<br>
 ![feeding totals](https://github.com/jgalloway42/andrews_baby_tracker/blob/main/reports/figures/feeding_daily_totals.png)<br>
 ![feeding distribution](https://github.com/jgalloway42/andrews_baby_tracker/blob/main/reports/figures/feeding_distribution.png)<br>
 ![feeding rolling](https://github.com/jgalloway42/andrews_baby_tracker/blob/main/reports/figures/feeding_rolling.png)<br>
